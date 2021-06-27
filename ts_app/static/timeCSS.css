@@ -8,9 +8,11 @@ h1 {
     outline: 5px solid black;
 }
 
-h3 {
+h4 {
     height: 50px;
+    width: 200px;
     text-align: center;
     padding-top: 25px;
     outline: 5px solid black;
+    margin-left: 190px;
 }
