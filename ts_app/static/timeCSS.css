@@ -4,18 +4,13 @@ div {
 }
 
 h1 {
-    color: black;
-    background-color: black;
-    color: white;
     text-align: center;
+    outline: 5px solid black;
 }
 
 h3 {
     height: 50px;
     text-align: center;
     padding-top: 25px;
-    background-color: black;
-    color: white;
-
-
+    outline: 5px solid black;
 }

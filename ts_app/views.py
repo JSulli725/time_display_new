@@ -4,6 +4,7 @@ from time import gmtime, strftime
 # Create your views here.
 def displayTime(request):
     context = {
-        "time": strftime("%b %d, %Y %H:%M %p")
+        "date": strftime("%b %d, %Y"),
+        "time": strftime("%H:%M %p")
     }
     return render(request, "time.html", context)
